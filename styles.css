@@ -6,7 +6,8 @@ body{
 
 .post{
     background-color: white;
-        width: 500px;
+        width: 340px;
+        height:476px;
         margin: auto;
         border-style: solid; 
         border-width: 1px;
@@ -19,28 +20,30 @@ body{
 
     .post-header-content {
         flex-direction: row;
-        margin-top: 14px;
+        margin-top: 8px;
         }
 
     .html-icon {
         object-fit: none;
-        width: 50px;
-        height: 50px;
-        margin-top: 10px;
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 8px;
         } 
 
     .header-text {
-        font-size: 15px;
-        
+        font-size: 14px;
+        margin-left: 10px;
     }
 
     .header-text-2 {
         font-size: 12px;
+        margin-left: 10px;
     }
     
     .post img {
         width: 100%;
-        margin-top: 0;
+        height: 270px;
+        margin-top: 5px;
     }
 
     .hamburger-icon {
@@ -48,7 +51,7 @@ body{
         color: black;
         margin-left: auto;
         margin-right: 15px;
-        margin-top: 15px;
+        margin-top: 9px;
         font-size: medium;
         font-size: 20px;
     }
@@ -60,7 +63,8 @@ body{
 
 .heart-icon, .comment-icon, .share-icon {
         margin: 0 5px;
-        font-size: 20px;
+        font-size: 25px;
+        margin-left: 5px;
 }
 
 .save-icon {
@@ -68,20 +72,19 @@ body{
         color: black;
         margin-left: auto;
         margin-right: 15px;
-        font-size: 20px;
+        font-size: 25px;
 }
 
 .post-stats {
-    font-size: 12px;
-    margin-left: 5px;
-    margin-top: 5px;
+    font-size: 11px;
+    margin-left: 8px;
+    margin-top: 10px;
 }
 
 .post-cap {
-        font-size: 12px;
-        margin-left: 5px;
-        margin-right: 15px;
-        margin-top: 0px;
+        font-size: 11px;
+        margin-left: 8px;
+        margin-right: 5px;
     }
 
 
